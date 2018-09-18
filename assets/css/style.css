@@ -1,0 +1,85 @@
+#gameArea{
+    position: fixed;
+    top:1%;
+    bottom: 3%;
+    left: 8%;
+    right: 8%;
+    background-color: rgb(0, 0, 161);
+    opacity: .93;
+    min-width: 535px;
+    /* min-height: 500px; */
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: cover;
+    min-height: 500px;
+}
+
+h1 {
+    font-size: 100px;
+    padding-bottom:0%;
+    margin-bottom:0%;
+}
+
+h2 {
+    font-size: 80px
+}
+
+
+h3 {
+    font-size: 60px
+}
+
+
+h4 {
+    padding-top:0%;
+    margin-top:1%;
+    font-size: 40px
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    text-align: center;
+}
+
+#timer{
+    display: none;
+}
+#time{
+    display: none;
+}
+
+.choice:hover {
+    color: rgb(0, 0, 161);
+    background-color: red;
+}
+
+#answerHolder {
+    width: 50%;
+}
+
+#restartButton {
+    display: none;
+}
+
+#choices{
+    margin:0% 20%;
+}
+ 
+.gif{
+    /* display: none; */
+    width: 200px;
+    height:200px;
+} 
+
+#gif{
+    margin: 0 38%;
+} 
+
+#russell,#yao, #boston, #kobe { 
+    display: none;
+
+}

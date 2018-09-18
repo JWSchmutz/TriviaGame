@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <div id="gameArea">
+        <h1>NBA Trivia</h1>
+        <h4 id="timer">Time Remaining: <span id="time"> </span> seconds</h4>
+        <div class="text-center">
+            <button type="button" class="btn btn-secondary btn-lg " id="startButton">Start Game</button>
+        </div>
+        <h3 id="question"></h3>
+        <div id="choices">
+            <h4 class = "choice" id="choiceA"></h4>
+            <h4 class = "choice" id="choiceB"></h4>
+            <h4 class = "choice" id="choiceC"></h4>
+            <h4 class = "choice" id="choiceD"></h4>
+        </div>
+        <div id="gif">
+            <img class="gif" src="assets/images/kobe.gif" alt="kobe" id="kobe">
+            <img class="gif" src="assets/images/russell.gif" alt="russell with rings" id="russell">
+            <img class="gif" src="assets/images/yao.gif" alt="yao ming" id="yao">
+            <img class="gif" src="assets/images/boston.gif" alt="boston logo" id="boston">
+        </div>
+        <div class="text-center">
+                <button type="button" class="btn btn-secondary btn-lg " id="restartButton">Start Over</button>
+            </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
